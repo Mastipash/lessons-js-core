@@ -35,6 +35,10 @@ html {
 	border: 2rem solid #FFF;
 	border-radius: 50%;
 }
+.avatar__picture:hover {
+    transition: all 1s ease;
+    transform: rotateZ(180deg);
+}
 .contacts {
 	display: flex;
 	flex-direction: column;
