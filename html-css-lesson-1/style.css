@@ -1,0 +1,74 @@
+body,
+html {
+	width: 100%;
+	background: rgb(0,255,250);
+	background: linear-gradient(15deg, rgba(0,255,250,0.1) 0%, rgba(217,255,142,0.2) 37%, rgba(214,255,154,0.3) 57%, rgba(0,184,63,0.3) 91%);
+	font-size: 16px;
+}
+.person {
+  width: 800px;
+	display: flex;
+	flex-flow: row wrap;
+	margin: 0 auto;
+	align-items: center;
+  padding-top: 2rem;
+}
+.person__info {
+    flex: 1 0 50%;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+}
+.person__contacts {
+    flex: 1 0 50%;
+	margin-bottom: 2rem;
+}
+.person__details {
+}
+.avatar {
+    display: flex;
+	width: 100%;
+    flex-direction: column;
+	margin-right: 1rem;
+	align-items: center;
+}
+.avatar__picture {
+	border: 2rem solid #FFF;
+	border-radius: 50%;
+}
+.avatar__picture:hover {
+    transition: all 1s ease;
+    transform: rotateZ(180deg);
+}
+.contacts {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+.contacts__name {
+	font-size: 2rem;
+    font-weight: bold;
+}
+.contacts__role {
+	font-size: 1.2rem;
+    font-weight: bold;
+	margin-bottom: 2rem;
+}
+.contacts__item {
+	font-style: italic;
+}
+.contacts__title {
+	font-weight: bold;
+}
+.contacts__title:after {
+	/* добавьте ваш код  */
+}
+.contacts__link {
+	color: gray;
+}
+.paragraph {
+	margin-bottom: 1rem;
+}
+.paragraph_last {
+	margin-bottom: 3rem;
+}
